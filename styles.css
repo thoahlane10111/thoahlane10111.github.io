@@ -1,0 +1,97 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Using a popular Google font */
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to right, #1e90ff, #00bfff); /* Cool blue gradient */
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Section styles */
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+    color: #1e90ff; /* Blue color for headings */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+    text-align: justify;
+}
+
+/* Projects and Achievements lists */
+.projects ul, .achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects ul li, .achievements ul li {
+    margin: 10px 0;
+}
+
+/* Links */
+.projects a {
+    color: #1e90ff; /* Blue color for links */
+    text-decoration: none;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+/* Skills section */
+.skills {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.skills div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Contact section */
+.contact a {
+    color: #1e90ff; /* Blue color for links */
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e90ff; /* Blue footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+

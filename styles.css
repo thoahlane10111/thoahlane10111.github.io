@@ -1,3 +1,12 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set background to black */
+    color: white; /* Set text color to white for contrast */
+    font-family: 'Roboto', sans-serif; /* Use the Google font you've linked */
+}
+
 .projects {
     text-align: center;
     margin: 40px 0;
@@ -6,6 +15,7 @@
 .projects h3 {
     font-size: 1.5rem;
     margin-bottom: 20px;
+    color: white; /* Ensure header text is white */
 }
 
 .project-slider {
@@ -20,6 +30,7 @@
     padding: 20px;
     background-color: #333; /* Dark background for projects */
     border-radius: 8px;
+    color: white; /* Make sure project text is visible */
 }
 
 .project.active {
